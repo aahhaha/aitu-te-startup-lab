@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-11-14T18:55:45.957145+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "command": "python -m pytest -q -m \"not browser and not external\"",
+  "exit_code": 0,
+  "junit": {
+    "tests": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "source_sha256": {
+    "app.py": "a81466de8b9d7657d329411ef54f7b1f81359e4b3f6c9764ff07fd016e4852ce",
+    "finance.py": "09a2fd6c1af7144e325269b64dee0348163efcc9826eb3ced078934214e093da",
+    "tests/test_board.py": "88109af605c32c9ca471598d37fcd8eaafc07f05be532c3e20bf09a53112a421",
+    "tests/test_finance.py": "7634c2f09cbaf5b886578f4e165d50eb1db9f26d56302d4d971ead988024d6d1",
+    "tools/evidence.py": "21a5221fd32684ab59ea3ba3e95e9555a3a05098e7800f4b0db9660adb46e911",
+    "tools/financial_report.py": "f0ec0317cc7c6507d835cca1e4e75cbb5a34013df012f4f919a3f52a4f12bd53"
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.db
+*.db-*
+*.key
+*.pem
+*.zip
+target/
+node_modules/
+reports/allure-results/
+reports/allure-html/
+reports/screenshots/
