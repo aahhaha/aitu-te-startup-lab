@@ -1,0 +1,3 @@
+.....................................                                    [100%]
+- generated xml file: /home/runner/work/aitu-te-startup-lab/aitu-te-startup-lab/reports/junit.xml -
+37 passed in 2.08s

@@ -1,0 +1,89 @@
+{
+  "base": {
+    "data_kind": "planning assumptions, not observed sales",
+    "contribution_per_account": 24,
+    "CAC": 30.0,
+    "LTV_simple": 480.0,
+    "LTV_CAC": 16.0,
+    "payback_months": 1.25,
+    "break_even_accounts": 25,
+    "SOM_accounts": 20,
+    "assumptions": {
+      "price_monthly": 30,
+      "variable_cost": 6,
+      "fixed_monthly": 600,
+      "acquisition_spend": 300,
+      "new_paying_accounts": 10,
+      "monthly_churn": 0.05,
+      "reachable_accounts": 200,
+      "target_penetration": 0.1
+    }
+  },
+  "churn_sensitivity": [
+    {
+      "data_kind": "planning assumptions, not observed sales",
+      "contribution_per_account": 24,
+      "CAC": 30.0,
+      "LTV_simple": 1200.0,
+      "LTV_CAC": 40.0,
+      "payback_months": 1.25,
+      "break_even_accounts": 25,
+      "SOM_accounts": 20,
+      "assumptions": {
+        "price_monthly": 30,
+        "variable_cost": 6,
+        "fixed_monthly": 600,
+        "acquisition_spend": 300,
+        "new_paying_accounts": 10,
+        "monthly_churn": 0.02,
+        "reachable_accounts": 200,
+        "target_penetration": 0.1
+      }
+    },
+    {
+      "data_kind": "planning assumptions, not observed sales",
+      "contribution_per_account": 24,
+      "CAC": 30.0,
+      "LTV_simple": 480.0,
+      "LTV_CAC": 16.0,
+      "payback_months": 1.25,
+      "break_even_accounts": 25,
+      "SOM_accounts": 20,
+      "assumptions": {
+        "price_monthly": 30,
+        "variable_cost": 6,
+        "fixed_monthly": 600,
+        "acquisition_spend": 300,
+        "new_paying_accounts": 10,
+        "monthly_churn": 0.05,
+        "reachable_accounts": 200,
+        "target_penetration": 0.1
+      }
+    },
+    {
+      "data_kind": "planning assumptions, not observed sales",
+      "contribution_per_account": 24,
+      "CAC": 30.0,
+      "LTV_simple": 240.0,
+      "LTV_CAC": 8.0,
+      "payback_months": 1.25,
+      "break_even_accounts": 25,
+      "SOM_accounts": 20,
+      "assumptions": {
+        "price_monthly": 30,
+        "variable_cost": 6,
+        "fixed_monthly": 600,
+        "acquisition_spend": 300,
+        "new_paying_accounts": 10,
+        "monthly_churn": 0.1,
+        "reachable_accounts": 200,
+        "target_penetration": 0.1
+      }
+    }
+  ],
+  "synthetic_funnel_example": {
+    "signup_rate": 0.2,
+    "activation_rate": 0.4,
+    "overall_conversion": 0.08
+  }
+}
